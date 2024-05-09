@@ -1,4 +1,4 @@
-## InveeSync Backend Project
+## InveeSync Backend Project (https://inveesync-backend.onrender.com)
 
 ### Authentication Routes
 
@@ -11,7 +11,7 @@
      - `password` (String): User's password
    - **Example Usage (Postman):**
      - Set request type to POST
-     - Set URL to `http://localhost:4000/authapi/register`
+     - Set URL to `https://inveesync-backend.onrender.com/authapi/register`
      - Go to Body tab, select form-data, and add the required fields
      - Click Send
 
@@ -23,7 +23,7 @@
      - `password` (String): User's password
    - **Example Usage (Postman):**
      - Set request type to POST
-     - Set URL to `http://localhost:4000/authapi/login`
+     - Set URL to `https://inveesync-backend.onrender.com/authapi/login`
      - Go to Body tab, select form-data, and add the required fields
      - Click Send
 
@@ -42,7 +42,7 @@
      - `ProductImage` (File): Image file of the product
    - **Example Usage (Postman):**
      - Set request type to POST
-     - Set URL to `http://localhost:4000/productapi/products`
+     - Set URL to `https://inveesync-backend.onrender.com/productapi/products`
      - Go to Body tab, select form-data, and add the required fields
      - Click Send
 
@@ -52,7 +52,7 @@
    - **Authentication:** Pass the token generated during login in the header.
    - **Example Usage (Postman):**
      - Set request type to GET
-     - Set URL to `http://localhost:4000/productapi/products`
+     - Set URL to `https://inveesync-backend.onrender.com/productapi/products`
      - Click Send
 
 3. **Update a Product**
@@ -65,7 +65,7 @@
      - `price` (Number): Product price
    - **Example Usage (Postman):**
      - Set request type to PUT
-     - Set URL to `http://localhost:4000/productapi/products/663cf72a1d6dea8ba8432246`
+     - Set URL to `https://inveesync-backend.onrender.com/productapi/products/663cf72a1d6dea8ba8432246`
      - Go to Body tab, select form-data, and add the required fields
      - Click Send
 
@@ -75,7 +75,7 @@
    - **Authentication:** Pass the token generated during login in the header.
    - **Example Usage (Postman):**
      - Set request type to GET
-     - Set URL to `http://localhost:4000/productapi/products/663cf72a1d6dea8ba8432246`
+     - Set URL to `https://inveesync-backend.onrender.com/productapi/products/663cf72a1d6dea8ba8432246`
      - Click Send
     
 5. **Delete a Product By Id**
@@ -84,6 +84,6 @@
    - **Authentication:** Pass the token generated during login in the header.
    - **Example Usage (Postman):**
      - Set request type to DELETE
-     - Set URL to `http://localhost:4000/productapi/products/663cf72a1d6dea8ba8432246`
+     - Set URL to `https://inveesync-backend.onrender.com/productapi/products/663cf72a1d6dea8ba8432246`
      - Click Send
 
